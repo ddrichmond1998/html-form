@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+    type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+      <main>
+          <form>
+              <fieldset>
+                  <legend>BASIC PROFILE</legend>
+                  <div>
+                      <label for="name">Name:</label>
+                  <input 
+                  id=name"
+                  type="text"
+                  name="name"
+                  placeholder="Enter Name Here"
+                  />
+                  </div>
+                  <div>
+                  <label for="email">Email:</label>
+                  <input
+                  id="email"
+                  type="text"
+                  name="zipcode"
+                  required
+                  />
+                  <div>
+                    <label for="location">Zipcode:</label>
+                    <input
+                      id="location"
+                      type="text"
+                      name="zipcode"
+                      autofocus="on"
+                      maxlength="5"
+                      required
+                    />
+                  </div>
+            </fieldset>
+            <div>
+                <label for="your-message">In which country/state/city/town do you reside?</label>
+                <textarea
+                id="your-message"
+                name="message"
+                autofocus="on"
+                required
+                maxlength="100"
+                placeholder="Enter country and state of residence"
+                ></textarea>
+                <div>
+                    <h2>Favorite Topics:</h2>
+                    <div>
+                      <input id="events" name="interests" type="radio" value="current" />
+                      <label for="events">Current Events</label>
+                    </div>
+                    <div>
+                      <input id="world" name="world" type="radio" value="world" />
+                      <label for="world news">World News</label>
+                    </div>
+                    <div>
+                      <input id="local" name="local" type="radio" value="local" />
+                      <label for="local">Local News</label>
+                    </div>
+                    <div>
+            </div>
+        
+
+          </form>
+      </main>
+  </body>
